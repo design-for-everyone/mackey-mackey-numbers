@@ -1,0 +1,50 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 40px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60rem;
+    margin: 100px auto;
+}
+
+.numbers__item{
+    font-size: 5rem;
+    font-weight: lighter;
+    color: #eee;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: #d2d200;
+}
+
+.correct{
+    background-color: darkgreen;
+}
